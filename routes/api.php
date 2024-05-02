@@ -23,5 +23,6 @@ Route::get('/product', 'ApiController@index');
 Route::get('/product/{id}', 'ApiController@show');
 Route::post('/product', 'ApiController@store');
 Route::put('/product/{product}', 'ApiController@update');
+Route::delete('/product/{product}', 'ApiController@delete');
 
 
